@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Data</title>
+
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="heading">
+        <h2>Insert Student Data</h2>
+      </div>
+
+      <div class="form-container">
+        <form method="post" action="/api/v1/create">
+          <label class="lbl">Enter Student's Name</label>
+          <input type="text" name="name" placeholder="Name" />
+
+          <br />
+          <br />
+
+          <label class="lbl">Enter Student's Age</label>
+          <input type="text" placeholder="Age" name="age" />
+
+          <br />
+          <br />
+
+          <label class="lbl">Enter Student's Marks</label>
+          <input type="text" placeholder="Marks" name="marks" />
+
+          <br />
+          <br />
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- <script src="js/script.js"></script> -->
+  </body>
+</html>

@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://source.unsplash.com/random/1600x900/?nature,dark,night");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; /* Stack blocks vertically */
+  justify-content: center; /* Center blocks vertically */
+  align-items: center; /* Center blocks horizontally */
+}
+
+.block {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  width: 30%;
+  height: 40%;
+  margin: 10px; /* Add margin for spacing between blocks */
+}
+
+.block h2 {
+  margin-top: 0;
+}
+
+.block-admin {
+  background-color: #ffbdbd;
+}
+
+.block-student {
+  background-color: #ffe699;
+}
+
+.block-teacher {
+  background-color: #b3ffb3;
+}
